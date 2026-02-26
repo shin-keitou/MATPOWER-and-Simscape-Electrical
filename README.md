@@ -1,4 +1,4 @@
-# MATPOWER-and-Simuscape-Electrical
+# MATPOWER-and-Simscape-Electrical
 MatlabでのMATPOWERおよびSimscape Electricalを用いた潮流計算の解析事例です。
 下記をご参照ください。
 
