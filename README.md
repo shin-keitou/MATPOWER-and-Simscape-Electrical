@@ -1,4 +1,3 @@
-# MATPOWER-and-Simscape-Electrical
 # MATLABを用いて潮流解析を扱うサンプル
 ---
 ### MATPOWERを用いた潮流解析
