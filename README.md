@@ -1,7 +1,27 @@
 # MATPOWER-and-Simscape-Electrical
-MatlabでのMATPOWERおよびSimscape Electricalを用いた潮流計算の解析事例です。
-下記をご参照ください。
+# MATLABを用いて潮流解析を扱うサンプル
+---
+### MATPOWERを用いた潮流解析
 
-MATPOWER:https://drive.mathworks.com/sharing/df3cb478-a7e9-4cec-a319-b686069a4cff
+MATPOWER は、MATLAB上で動作する電力系統解析用オープンソースツールボックスです。
 
-Simscape Electrical:https://jp.mathworks.com/help/releases/R2025b/sps/ug/ieee-9-bus.html
+公式サイト: [https://matpower.org/](https://matpower.org/)
+
+MATPOWERによる潮流計算結果を可視化するMATLABスクリプト：
+（ここにGitHub内のスクリプトへのリンクを貼ってください）
+
+※ スクリプトを実行するには、MATPOWERのインストールが必要です。
+
+---
+### Simscape Electricalを用いた潮流解析
+
+Simscape Electrical を用いた IEEE 9 Bus System のモデル例です。
+
+[https://jp.mathworks.com/help/releases/R2025b/sps/ug/ieee\-9\-bus.html](https://jp.mathworks.com/help/releases/R2025b/sps/ug/ieee-9-bus.html)
+
+物理モデルに基づく電力系統シミュレーションで、定常解析だけでなく過渡解析が可能です。
+
+Copy Command から自環境にモデルをコピーして実行・編集できます
+
+(Copyright The MathWorks Inc.,“Simscape Electrical Documentation”,mathworks.com.Accessed: February 24, 2026. \[Online\].)
+//jp.mathworks.com/help/releases/R2025b/sps/ug/ieee-9-bus.html
