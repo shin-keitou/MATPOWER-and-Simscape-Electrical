@@ -1,26 +1,58 @@
-# MATLABを用いて潮流解析を扱うサンプル
+
+# 1. MATLAB/Simulinkを用いて潮流解析を扱うサンプル
 ---
-### MATPOWERを用いた潮流解析
+## 1-1. Simscape Electricalを用いた潮流解析・周波数変動解析
+
+Simscape Electricalを使用して、小規模な2母線システムからIEEE 9母線システムまで、
+電力潮流 (定常)や、同期発電機の周波数変動 (過渡) を解析できます。
+
+Simscape Electricalによる電力系統システムの電力潮流計算の手順と、
+各例題に対応するサンプルモデルへのリンクを以下の資料にまとめています：
+
+### **[SimscapeElectricalによる電力系統システムの電力潮流計算](https://content.mathworks.com/viewer/f355e38faac181773aeaf358d0228b24)**
+
+https://content.mathworks.com/viewer/f355e38faac181773aeaf358d0228b24
+
+![アジェンダ](images/agenda.png)
+
+サンプルを起点にすることで、学習・検証・実装までスムーズに進められます。
+
+また、R2026aからリリースした[Simulink Copilot](https://jp.mathworks.com/products/simulink-copilot.html)をお使いいただくと、AIにモデルの中身を解説させたり、アドバイスを求めたりすることが可能です。
+
+---
+## 1-2. MATPOWERを用いた潮流解析
 
 MATPOWER は、MATLAB上で動作する電力系統解析用オープンソースツールボックスです。
 
 公式サイト: [https://matpower.org/](https://matpower.org/)
 
 MATPOWERによる潮流計算結果を可視化するMATLABスクリプト：
+
 https://github.com/shin-keitou/MATPOWER-and-Simscape-Electrical/blob/main/plot_power_flow_case9.mlx
 
 ※ スクリプトを実行するには、MATPOWERのインストールが必要です。
 
 ---
-### Simscape Electricalを用いた潮流解析
+# 2. MATLAB/Simulink Agentic Toolkit
 
-Simscape Electrical を用いた IEEE 9 Bus System のモデル例です。
+MATLAB/Simulink Agentic Toolkit は、Claude Code、GitHub Copilot、OpenAI Codex、Gemini CLI、Sourcegraph Amp などの AI エージェントが MATLAB や Simulink を活用して開発を行うためのツール群と専門知識を提供します。
 
-[https://jp.mathworks.com/help/releases/R2025b/sps/ug/ieee\-9\-bus.html](https://jp.mathworks.com/help/releases/R2025b/sps/ug/ieee-9-bus.html)
+上記で紹介した Simscape Electrical のモデルも、AI を使って構築可能です。
 
-物理モデルに基づく電力系統シミュレーションで、定常解析だけでなく過渡解析が可能です。
+- **[Simulink Agentic Toolkit](https://jp.mathworks.com/products/simulink-agentic-toolkit.html)**
 
-Copy Command から自環境にモデルをコピーして実行・編集できます
+- **[MATLAB Agentic Toolkit](https://jp.mathworks.com/products/matlab-agentic-toolkit.html)**
 
-(Copyright The MathWorks Inc.,“Simscape Electrical Documentation”,mathworks.com.Accessed: February 24, 2026. \[Online\].)
-//jp.mathworks.com/help/releases/R2025b/sps/ug/ieee-9-bus.html
+セットアップは、各GitHub リポジトリの「Get Started」に記載された手順を実施するだけで完了です。
+
+
+何ができるか、どのように使えるかの詳細が知りたい場合は以下の動画をご覧ください。
+
+### **[AI エージェントで変わる MATLAB、Simulink 活用 ― MCP による設計からデプロイまで](https://jp.mathworks.com/videos/matlab-and-simulink-transformed-by-ai-agents-from-design-to-deployment-with-mcp-1782501854154.html)**
+
+※別途対応するAIエージェント（Claude® Code、GitHub Copilot®、OpenAI® Codex、Gemini CLI®、Sourcegraph Amp など）の導入が必要です
+
+
+
+
+
